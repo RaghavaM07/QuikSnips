@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "poppinsregular";
+	src: url("fonts/poppins-regular-webfont.woff2") format("woff2"),
+		url("fonts/poppins-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "poppinsregular";
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.forms {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.forms > * {
+	border-right: 1px solid grey;
+}
+
+.formGrp {
+	width: calc(100vw / 3);
+	margin: auto 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formGrp:last-child {
+	border-right: none;
+}
+
+.formGrp > * {
+	margin: 10px;
+}
+
+button {
+	padding: 15px;
+	border: none;
+	outline: none;
+	border-radius: 15px;
+	cursor: pointer;
+	background-color: rgb(0, 119, 255);
+	color: white;
+	font-weight: bold;
+}
+
+input {
+	font-size: large;
+	outline: none;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid grey;
+}
+
+textarea {
+	height: 300px;
+	width: 400px;
+	font-family: monospace;
+	outline: none;
+	border: 1px solid grey;
+	padding: 5px;
+	overflow: auto;
+}
+
+h1 {
+	padding-bottom: 3px;
+	border-bottom: 5px dashed rgb(0, 213, 255);
+}
+
+h2 {
+	padding-bottom: 3px;
+	border-bottom: 5px dotted rgb(126, 186, 255);
+}

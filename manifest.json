@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Quik Snips",
+	"version": "1.0",
+	"description": "Save time while typing by being able to access pre-saved snippets.",
+	"icons": {
+		"128": "icons/icon128.png",
+		"48": "icons/icon48.png",
+		"16": "icons/icon16.png"
+	},
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": "icons/icon16.png"
+	},
+	"options_page": "options.html",
+	"background": {
+		"scripts": ["eventPage.js"],
+		"persistent": false
+	},
+	"permissions": ["storage", "contextMenus"]
+}
