@@ -1,9 +1,6 @@
-# <p style="text-align: center">Quik Snips</p>
+# Quik Snips
 
-<div align="center">
-	<img src="icons/icon128.png">
-</div>
-	<hr>
+![Extension Icon](/icons/icon128.png)
 
 Quik Snips is a Chrome extension built to simplify working on writing long texts. It helps you to copy pre-saved snippets of text/code quickening your job.
 
